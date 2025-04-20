@@ -98,7 +98,7 @@ export default function Hero() {
   })
 
   return (
-    <section ref={sectionRef} className="h-full mt-[80px] w-full flex flex-col overflow-clip font-inter">
+    <section ref={sectionRef} className="h-full my-[80px] w-full flex flex-col overflow-clip font-inter">
       <Marquee className="w-full h-full marquee opacity-0 [--duration:100s]">
         <div className="flex items-center gap-4 text-sm font-medium text-[rgb(204,204,204)]">
           {tags.map((tag, index) => (

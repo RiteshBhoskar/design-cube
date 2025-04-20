@@ -1,7 +1,7 @@
-import CuboidVertical from "@/components/Cuboid";
+import About from "@/components/About";
 import Hero from "@/components/Hero";
+import MeetTheTeam from "@/components/MeetTheTeam";
 import Navbar from "@/components/Navbar";
-import ShowFeatures from "@/components/ShowFeatures";
 
 
 export default function Home() {
@@ -9,7 +9,8 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center px-4 bg-black text-white">
       <Navbar />
       <Hero />
-      <ShowFeatures />
+      <About />
+      <MeetTheTeam />
     </main>
   )
 }
