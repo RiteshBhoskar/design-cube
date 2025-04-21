@@ -33,7 +33,7 @@ export default function EnhancedTeamSection() {
       }, [])
 
   return (
-    <section ref={teamRef} className="flex flex-col w-full py-16 md:py-20 bg-black overflow-clip text-white">
+    <section ref={teamRef} className="flex flex-col w-full md:py-20 bg-black overflow-clip text-white">
       <div className="flex text items-center justify-center h-screen">
         <h2 className="text-white text-5xl md:text-[125px] font-bold">
           MEET*THE*TEAM
@@ -62,7 +62,7 @@ export default function EnhancedTeamSection() {
                   </div>
                 </div>
 
-                <div className="absolute inset-0 bg-[#9CFF33] rounded-lg [backface-visibility:hidden] [transform:rotateY(180deg)] text-gray-900 flex flex-col justify-center items-center text-center p-4">
+                <div className="absolute inset-0 bg-[#9CFF33] rounded-lg [backface-visibility:hidden] [transform:rotateY(180deg)] text-gray-900 flex flex-col justify-center items-center text-center p-4 cursor-pointer">
                     <ArrowUpRight size={100} strokeWidth={1} />
                   <a
                     href="https://x.com/RiteshBhoskar7"

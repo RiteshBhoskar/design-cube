@@ -46,4 +46,131 @@ export const facesData = [
         image: "/p6.avif",
       },
     ]
-  
+    export const awardsData = [
+      {
+        id: 1,
+        title: "CSS Nectar - Site of the Day",
+        date: "Nov 16, 2023",
+        description:
+          "Design*Cube's website was recognized as the 'Site of the Day' by CSS Nectar, highlighting our commitment to excellence in web design.",
+      },
+      {
+        id: 2,
+        title: "Web Guru Awards",
+        date: "Oct 11, 2023",
+        description:
+          "Design*Cube received the Web Guru Award for outstanding achievement in web design, showcasing our design expertise.",
+      },
+      {
+        id: 3,
+        title: "Mobile Excellence Awards",
+        date: "Sep 28, 2023",
+        description:
+          "Design*Cube's dedication to providing the best mobile user experiences was acknowledged with a Mobile Excellence Award.",
+      },
+      {
+        id: 4,
+        title: "The Drum Awards",
+        date: "May 21, 2023",
+        description:
+          "Design*Cube was honored with The Drum Award for Creative Technology, recognizing our innovative approaches to digital creativity.",
+      },
+      {
+        id: 5,
+        title: "International Design Awards",
+        date: "Mar 15, 2023",
+        description:
+          "Design*Cube received an International Design Award for excellence in interactive media and web design.",
+      },
+      {
+        id: 6,
+        title: "Awwwards - Honorable Mention",
+        date: "Feb 03, 2023",
+        description:
+          "Design*Cube received an Honorable Mention from Awwwards for its blend of creativity, usability, and content quality.",
+      },
+      {
+        id: 7,
+        title: "Creativepool Annual",
+        date: "Jan 10, 2023",
+        description:
+          "Design*Cube was shortlisted in the Creativepool Annual for Digital Innovation, celebrating standout work in digital design.",
+      },
+    ]
+    
+
+    export const servicesData = [
+      {
+        id: 1,
+        title: "Web Design",
+        description:
+          "Crafting visually stunning and user-friendly websites tailored to your brand’s identity and goals.",
+      },
+      {
+        id: 2,
+        title: "SEO Optimization",
+        description:
+          "Enhancing your website’s visibility and ranking on search engines through strategic keyword integration and technical optimization.",
+      },
+      {
+        id: 3,
+        title: "UX/UI Design",
+        description:
+          "Creating intuitive and engaging user experiences and interfaces that prioritize user satisfaction and ease of use.",
+      },
+      {
+        id: 4,
+        title: "Branding",
+        description:
+          "Building a cohesive and strong brand identity that resonates with your target audience and sets you apart from the competition.",
+      },
+      {
+        id: 5,
+        title: "Graphic Design",
+        description:
+          "Designing compelling and creative visuals for print and digital media to communicate your message effectively.",
+      },
+      {
+        id: 6,
+        title: "E-commerce Solutions",
+        description:
+          "Developing robust and scalable online stores that drive sales and provide seamless shopping experiences for your customers.",
+      },
+      {
+        id: 7,
+        title: "Mobile App Design",
+        description:
+          "Designing seamless and functional mobile applications that offer an optimal user experience on any device.",
+      },
+      {
+        id: 8,
+        title: "Digital Marketing",
+        description:
+          "Strategizing and executing comprehensive digital marketing campaigns to boost your online presence and engagement.",
+      },
+      {
+        id: 9,
+        title: "Content Creation",
+        description:
+          "Crafting engaging and relevant content, including blogs, videos, and graphics, to connect with your audience and enhance your brand story.",
+      },
+      {
+        id: 10,
+        title: "Social Media Management",
+        description:
+          "Managing and growing your social media presence effectively to engage with your audience and build your brand.",
+      },
+      {
+        id: 11,
+        title: "Video Production",
+        description:
+          "Creating captivating and professional videos for marketing, branding, and storytelling purposes.",
+      },
+      {
+        id: 12,
+        title: "Consulting Services",
+        description:
+          "Offering expert advice and strategies to enhance your digital footprint and achieve your business objectives.",
+      },
+    ]
+    

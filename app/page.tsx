@@ -1,9 +1,12 @@
 import About from "@/components/About";
+import Awards from "@/components/Awards";
+import CustomerThoughts from "@/components/CustomerThoughts";
 import Hero from "@/components/Hero";
 import KeyMetrics from "@/components/KeyMetrics";
 import MeetTheTeam from "@/components/MeetTheTeam";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
+import Services from "@/components/Services";
 
 
 export default function Home() {
@@ -14,6 +17,9 @@ export default function Home() {
       {/* <About /> */}
       <KeyMetrics />
       <MeetTheTeam />
+      <Awards />
+      <CustomerThoughts />
+      <Services />
       <Projects />
     </main>
   )
