@@ -48,8 +48,8 @@ export default function RotatingCube() {
   ]
 
   return (
-    <div className="h-full bg-black flex w-full items-center justify-center">
-      <div className="relative" style={{ width: cubeSize, height: cubeSize, perspective: '1000px' }}>
+    <div className="h-full bg-transparent flex w-full items-center justify-center">
+      <div className="relative" style={{ width: cubeSize, height: cubeSize, perspective: '500px' }}>
         <div
           ref={cubeRef}
           className="absolute"

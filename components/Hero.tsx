@@ -109,8 +109,8 @@ export default function Hero() {
           ))}
         </div>
       </Marquee>
-      <div className="flex flex-col items-center justify-center w-full h-full gap-4 mt-10 text-center">
-        <h1 className="flex w-full h-full text-6xl sm:text-[170px] font-bold justify-center items-center text-center font-inter main-text opacity-0">DESIGN*CUBE</h1>
+      <div className="flex flex-col items-center justify-center w-full h-full gap-4 my-10 text-center">
+        <h1 className="flex w-full h-full text-5xl sm:text-[170px] font-bold justify-center items-center text-center font-inter main-text opacity-0">DESIGN*CUBE</h1>
         <div className="flex items-center justify-center cube opacity-0 sm:-mt-24 z-30 scale-105 sm:scale-[2]" >
                 <RotatingCube />
         </div>
@@ -118,7 +118,7 @@ export default function Hero() {
             <span className="flex items-center text-start sm:text-lg justify-start w-full sm:w-[250px] font-light left-text opacity-0">
                     At DesignCube, we specialize in web design, SEO, UI/UX, branding, and digital marketing. Elevate your brand and transform your digital presence with our innovative design solutions.
             </span>
-            <button className="px-8 py-3 z-50 button opacity-0 bg-white text-black rounded-full h-fit ">
+            <button className="px-8 py-3 z-50 button opacity-0 bg-white text-black rounded-full h-fit transition-colors duration-2000 cursor-pointer hover:bg-[#9CFF33] ">
                 Our Projects
             </button>
             <span className="flex  right-text justify-end text-right font-light uppercase w-full sm:w-[300px] text-lg opacity-0">

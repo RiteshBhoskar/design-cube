@@ -26,7 +26,7 @@ export default function Navbar() {
                 <button className="rounded-full h-full px-5 py-1 transition-colors  hover:text-[#9CFF33]">Services</button>
                 <button className="rounded-full h-full px-5 py-1 transition-colors  hover:text-[#9CFF33]">Projects</button>
                 <button className="rounded-full h-full px-5 py-1 transition-colors  hover:text-[#9CFF33]">Contact</button>
-                <button className="rounded-full h-full px-5 py-1 bg-white transition-all duration-700 hover:bg-[#9CFF33] text-black">FREE Remix</button>
+                <button className="rounded-full h-full px-5 py-1 bg-white transition-all duration-2000 hover:bg-[#9CFF33] text-black">FREE Remix</button>
             </nav>
         </header>
     )
