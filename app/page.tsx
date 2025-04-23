@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Awards from "@/components/Awards";
 import CustomerThoughts from "@/components/CustomerThoughts";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import KeyMetrics from "@/components/KeyMetrics";
 import MeetTheTeam from "@/components/MeetTheTeam";
@@ -21,6 +22,7 @@ export default function Home() {
       <CustomerThoughts />
       <Services />
       <Projects />
+      <Footer />
     </main>
   )
 }

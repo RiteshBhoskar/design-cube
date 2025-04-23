@@ -1,14 +1,30 @@
+import { projectsData } from "@/lib/data";
+import { Marquee } from "./magicui/marquee";
 
 
 export default function Projects() {
     return (
-        <section className="bg-black text-white h-full w-full overflow-clip my-20 px-4 sm:px-8 font-inter">
-            <h2 className="flex w-full h-fit text-6xl sm:text-[200px] font-bold justify-center items-center text-center font-inter about-text text-white">PROJECTS</h2>
-            <div className="w-full h-full flex flex-col items-center justify-center">
-                <div className="w-full h-full flex flex-col items-center justify-center">
-                    <p className="text-2xl sm:text-4xl font-bold">Coming Soon...</p>
-                </div>
-            </div>
+        <section className="bg-black text-white h-full w-full overflow-clip my-20 -mx-4 font-inter">
+        <h3 className="text-white h-screen text-5xl w-full flex justify-center md:text-[150px] font-bold">
+          OUR*PROJECTS
+        </h3>
+        <div className="flex flex-col w-full space-x-2">
+        <Marquee className="[--duration:75s] h-70 w-full">
+            {projectsData.t.map((image) => (
+                <img src={image.image} alt="project images" key={image.id} />
+            ))}
+        </Marquee>
+        <Marquee reverse  className="[--duration:75s] h-70 w-full">
+            {projectsData.m.map((image) => (
+                <img src={image.image} alt="project images" key={image.id} />
+            ))}
+        </Marquee>
+        <Marquee  className="[--duration:75s] h-70 w-full">
+            {projectsData.b.map((image) => (
+                <img src={image.image} alt="project images" key={image.id} />
+            ))}
+        </Marquee>
+        </div>
         </section>
     )
 }

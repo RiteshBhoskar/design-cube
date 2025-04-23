@@ -46,6 +46,7 @@ export const facesData = [
         image: "/p6.avif",
       },
     ]
+
     export const awardsData = [
       {
         id: 1,
@@ -95,6 +96,37 @@ export const facesData = [
         date: "Jan 10, 2023",
         description:
           "Design*Cube was shortlisted in the Creativepool Annual for Digital Innovation, celebrating standout work in digital design.",
+      },
+    ]
+    
+    export const customerData = [
+      {
+        id: 1,
+        name: "Sarah Thompson",
+        title: "Marketing Director, Bright Ideas Inc.",
+        image: "/c1.avif",
+        description:"Working with DesignCube was a game-changer for our brand. Their innovative design solutions and attention to detail helped us create a stunning website that truly represents our values. We’ve seen a significant boost in user engagement and conversions since the redesign.",
+      },
+      {
+        id: 2,
+        name: "James Williams",
+        title: "CEO, TechWorld Solutions",
+        image: "/c2.avif",
+        description:"DesignCube's expertise in SEO optimization and digital marketing has dramatically improved our online presence. Their strategic approach and deep understanding of our industry have driven more traffic to our site and increased our sales by 25%.",
+      },
+      {
+        id: 3,
+        name: "Emily Davis",
+        title: "Founder, Artisan Crafts",
+        image: "/c3.avif",
+        description:"The team at DesignCube exceeded our expectations with their creative branding and graphic design services. They captured the essence of our brand perfectly and delivered beautiful, cohesive visuals that have received fantastic feedback from our customers.",
+      },
+      {
+        id: 4,
+        name: "Micheal Brown",
+        title: "Product Manager, Innovatech",
+        image: "/c4.avif",
+        description:"DesignCube's UX/UI design expertise transformed our app into a user-friendly and engaging platform. Their collaborative approach and commitment to excellence were evident in every stage of the project. We couldn't be happier with the results.",
       },
     ]
     
@@ -173,4 +205,74 @@ export const facesData = [
           "Offering expert advice and strategies to enhance your digital footprint and achieve your business objectives.",
       },
     ]
+    
+
+    export const projectsData = {
+      m: [
+        {
+          id: 1,
+          image: "m1.avif"
+        },
+        {
+          id: 2,
+          image: "m2.avif"
+        },
+        {
+          id: 3,
+          image: "m3.avif"
+        },
+        {
+          id: 4,
+          image: "m4.avif"
+        },
+        {
+          id: 5,
+          image: "m5.avif"
+        },
+      ],
+      t: [
+        {
+          id: 1,
+          image: "t1.avif"
+        },
+        {
+          id: 2,
+          image: "t2.avif"
+        },
+        {
+          id: 3,
+          image: "t3.avif"
+        },
+        {
+          id: 4,
+          image: "t4.avif"
+        },
+        {
+          id: 5,
+          image: "t5.avif"
+        },
+      ],
+      b: [
+        {
+          id: 1,
+          image: "b1.avif"
+        },
+        {
+          id: 2,
+          image: "b2.avif"
+        },
+        {
+          id: 3,
+          image: "b3.avif"
+        },
+        {
+          id: 4,
+          image: "b4.avif"
+        },
+        {
+          id: 5,
+          image: "b5.avif"
+        },
+      ],
+    };
     
