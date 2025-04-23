@@ -35,7 +35,7 @@ export default function EnhancedTeamSection() {
   return (
     <section ref={teamRef} className="flex flex-col w-full md:py-20 bg-black overflow-clip text-white">
       <div className="flex text items-center justify-center h-screen">
-        <h2 className="text-white text-5xl md:text-[125px] font-bold">
+        <h2 className="text-white text-[44px] sm:text-[125px] font-bold">
           MEET*THE*TEAM
         </h2>
       </div>

@@ -12,16 +12,16 @@ import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center px-4 bg-black text-white">
+    <main className="flex flex-col items-center justify-center overflow-clip px-4 bg-black text-white">
       <Navbar />
       <Hero />
-      {/* <About /> */}
       <KeyMetrics />
       <MeetTheTeam />
       <Awards />
       <CustomerThoughts />
       <Services />
       <Projects />
+      <About />
       <Footer />
     </main>
   )

@@ -30,7 +30,7 @@ export default function Services() {
     }, { scope: sectionRef })
 
     return (
-        <section className="flex flex-col h-full w-full sm:flex-row justify-between py-10 sm:py-40" ref={sectionRef}>
+        <section  id="services" className="flex flex-col h-full w-full sm:flex-row justify-between py-10 sm:py-40" ref={sectionRef}>
             <div className="flex flex-col sm:flex-row justify-between h-full w-full pt-20 sm:space-x-20">
             <div className="h-fit text-center pb-7 sm:pb-0 sm:w-4/12 main-text">
                  <h3 className="text-7xl font-bold uppercase">

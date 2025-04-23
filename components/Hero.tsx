@@ -98,7 +98,7 @@ export default function Hero() {
   })
 
   return (
-    <section ref={sectionRef} className="h-full my-[80px] w-full flex flex-col overflow-clip font-inter">
+    <section id="hero" ref={sectionRef} className="h-full my-[80px] w-full flex flex-col overflow-clip font-inter">
       <Marquee className="w-full h-full marquee opacity-0 [--duration:100s]">
         <div className="flex items-center gap-4 text-sm font-medium text-[rgb(204,204,204)]">
           {tags.map((tag, index) => (
@@ -110,7 +110,7 @@ export default function Hero() {
         </div>
       </Marquee>
       <div className="flex flex-col items-center justify-center w-full h-full gap-4 my-10 text-center">
-        <h1 className="flex w-full h-full text-5xl sm:text-[170px] font-bold justify-center items-center text-center font-inter main-text opacity-0">DESIGN*CUBE</h1>
+        <h1 className="flex w-full h-full text-[44px] sm:text-[170px] font-bold justify-center items-center text-center font-inter main-text opacity-0">DESIGN*CUBE</h1>
         <div className="flex items-center justify-center cube opacity-0 sm:-mt-24 z-30 scale-105 sm:scale-[2]" >
                 <RotatingCube />
         </div>

@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-      <footer className="bg-[#9cff33] text-[#57a515] px-6 py-10 lg:px-20 -mx-4 relative overflow-clip">
+      <footer id="footer" className="bg-[#9cff33] text-[#57a515] px-6 py-10 lg:px-20 -mx-4 relative overflow-clip">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-10 text-sm">
           <div className="space-y-4">
             <h3 className="font-semibold">CONTACT US</h3>

@@ -7,8 +7,9 @@ export const metadata: Metadata = {
   title: "Design Cube",
   description: "Designed for agencies, portfolios, and personal brands, DesignCube seamlessly blends minimalist aesthetics with dynamic animations.",
 }
-export const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
-export const fragment = Fragment_Mono({ weight: '400', subsets: ['latin'], variable: '--font-fragment' })
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const fragment = Fragment_Mono({ weight: '400', subsets: ['latin'], variable: '--font-fragment' })
 
 
 export default function RootLayout({
